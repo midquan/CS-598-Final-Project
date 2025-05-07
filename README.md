@@ -19,13 +19,14 @@ Features
 - Reproducibility: Hyperparameters and computational settings are clearly documented
 
 Quick Start
+The notebook file installs dependencies, downloads and organizes the dataset, and runs the model in the notebook. You can simply run all and the notebook and model should begin running. It uses the following steps: 
+
 1. Install dependencies
   The notebook will auto-install required packages:
   !pip install numpy pandas matplotlib scikit-learn pyts torch tensorflow
 2. Data Preparation
   The script automatically downloads and unzips the required datasets into the data/ directory.
-
-3. Run the notebook
+3. Run the rest of the notebook
   Open the notebook in Google Colab for best performance. The code will:
     - Detect and use TPU if available
     - Parse the datasets
