@@ -54,10 +54,6 @@ Metrics: The code supports multiple similarity metrics (DTW, BOSS, Wasserstein, 
 
 Hyperparameters: Learning rate, batch size, hidden layer size, dropout, and epochs are all configurable at the top of the script.
 
-Partners
-Daniel Valentine
-Michael Quan
-
 Citation
 This code is based on and expands on code from Daily Physical Activity Monitoring: Adaptive Learning from Multi-source Motion Sensor Data (CHIL 2024)
 https://github.com/Oceanjinghai/HealthTimeSerial
