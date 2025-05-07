@@ -8,6 +8,7 @@ Michael Quan
 Date: May 6, 2025
 
 Overview
+
 This repository contains the code and resources for the CS-598 Final Project. The project implements and benchmarks deep learning models for time series classification using multiple sensor datasets. It is designed for ease of use in Python notebooks, with special optimization for Google Colab and TPU acceleration.
 
 Features
@@ -19,6 +20,7 @@ Features
 - Reproducibility: Hyperparameters and computational settings are clearly documented
 
 Quick Start
+
 The notebook file installs dependencies, downloads and organizes the dataset, and runs the model in the notebook. You can simply run all and the notebook and model should begin running. It uses the following steps: 
 
 1. Install dependencies
@@ -34,6 +36,7 @@ The notebook file installs dependencies, downloads and organizes the dataset, an
     - Output all results to results_output.log
 
 Logging & Output
+
 All training progress and evaluation metrics are saved in results_output.log (INFO level and above, with warnings shown only on console).
 Metrics reported include:
   - Accuracy
@@ -44,8 +47,11 @@ Metrics reported include:
   - Loss
 
 Customization
+
 Models: You can easily switch between MLP, LSTM, FCN, ResNet, and Encoder architectures.
+
 Metrics: The code supports multiple similarity metrics (DTW, BOSS, Wasserstein, etc.) for transfer learning experiments.
+
 Hyperparameters: Learning rate, batch size, hidden layer size, dropout, and epochs are all configurable at the top of the script.
 
 Partners
