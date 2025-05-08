@@ -1,7 +1,7 @@
 CS-598 Final Project
 Authors:
 
-Daniel Valentine
+Daniel Trugubenko
 
 Michael Quan
 
